@@ -1,3 +1,25 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+/* WebStudio */
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1923;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logo-web {
+  color: #2196f3;
+}
+li {
+  text-decoration: none;
+}
