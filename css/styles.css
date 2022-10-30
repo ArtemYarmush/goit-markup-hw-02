@@ -1,10 +1,24 @@
+:root {
+  --font-ral: "Raleway", sans-serif;
+  --color-title: #212121;
+  --color-text: #757575;
+  --color-hover-focus: #2196f3;
+}
 body {
   font-family: "Roboto", sans-serif;
 }
 
-/* WebStudio */
+/*header*/
+
+/*-----WebStudio-----*/
 .logo {
-  font-family: "Raleway";
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
+  font-family: var(--font-ral);
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -16,10 +30,116 @@ body {
   color: #000000;
 
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
 }
 .logo-web {
   color: #2196f3;
 }
-li {
+
+/*
+  
+  .list {
+  list-style: none;
+  text-decoration: none;.social-links .link:hover,
+.social-links .link:focus*/
+
+/*nav*/
+.nav {
+}
+.nav-list {
+  list-style: none;
+}
+.nav-list-studio {
+  position: absolute;
+  width: 45px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.02em;
+  color: var(--color-title);
+
   text-decoration: none;
+}
+
+.nav-list-portfolio {
+  position: absolute;
+  width: 72px;
+  height: 16px;
+  left: 548px;
+  top: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.02em;
+  color: var(--color-title);
+
+  text-decoration: none;
+}
+.nav-list-contacts {
+  position: absolute;
+  width: 64px;
+  height: 16px;
+  left: 670px;
+  top: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.02em;
+  color: var(--color-title);
+
+  text-decoration: none;
+}
+.nav-list-studio:hover,
+.nav-list-studio:focus,
+.nav-list-studio.current,
+.nav-list-portfolio:hover,
+.nav-list-portfolio:focus,
+.nav-list-contacts:hover,
+.nav-list-contacts:focus {
+  color: var(--color-hover-focus);
+}
+/*mail/tel*/
+.list {
+  list-style: none;
+}
+.list-mail {
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+  text-decoration: none;
+}
+.list-tel {
+  position: absolute;
+  width: 122px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.02em;
+
+  color: var(--color-text);
+  text-decoration: none;
+}
+.list-mail:hover,
+.list-mail:focus,
+.list-tel:hover,
+.list-tel:focus {
+  color: var(--color-hover-focus);
 }
