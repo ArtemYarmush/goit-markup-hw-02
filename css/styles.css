@@ -1,8 +1,12 @@
 :root {
   --font-ral: "Raleway", sans-serif;
-  --color-title: #212121;
+  --color-logo:  #000000
+  --color-title:   #212121;
   --color-text: #757575;
   --color-hover-focus: #2196f3;
+  --color-background: #2f303a;
+  --color-section-title:#ffffff;
+  --color-section-btn: #d9d9d9;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -12,12 +16,6 @@ body {
 
 /*-----WebStudio-----*/
 .logo {
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
-
   font-family: var(--font-ral);
   font-style: normal;
   font-weight: 700;
@@ -27,13 +25,14 @@ body {
 
   letter-spacing: 0.03em;
 
-  color: #000000;
+  color: var(--color-logo);
 
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   text-decoration: none;
+  cursor: pointer;
 }
 .logo-web {
-  color: #2196f3;
+  color: var(--color-hover-focus);
 }
 
 /*
@@ -50,12 +49,6 @@ body {
   list-style: none;
 }
 .nav-list-studio {
-  position: absolute;
-  width: 45px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1428;
@@ -63,15 +56,10 @@ body {
   color: var(--color-title);
 
   text-decoration: none;
+  cursor: pointer;
 }
 
 .nav-list-portfolio {
-  position: absolute;
-  width: 72px;
-  height: 16px;
-  left: 548px;
-  top: 32px;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1428;
@@ -79,14 +67,9 @@ body {
   color: var(--color-title);
 
   text-decoration: none;
+  cursor: pointer;
 }
 .nav-list-contacts {
-  position: absolute;
-  width: 64px;
-  height: 16px;
-  left: 670px;
-  top: 32px;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1428;
@@ -94,6 +77,7 @@ body {
   color: var(--color-title);
 
   text-decoration: none;
+  cursor: pointer;
 }
 .nav-list-studio:hover,
 .nav-list-studio:focus,
@@ -109,26 +93,15 @@ body {
   list-style: none;
 }
 .list-mail {
-  position: absolute;
-  width: 135px;
-  height: 16px;
-  left: 1078px;
-  top: 32px;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1428;
   letter-spacing: 0.02em;
   color: var(--color-text);
   text-decoration: none;
+  cursor: pointer;
 }
 .list-tel {
-  position: absolute;
-  width: 122px;
-  height: 16px;
-  left: 1263px;
-  top: 32px;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1428;
@@ -136,10 +109,136 @@ body {
 
   color: var(--color-text);
   text-decoration: none;
+  cursor: pointer;
 }
 .list-mail:hover,
 .list-mail:focus,
 .list-tel:hover,
 .list-tel:focus {
   color: var(--color-hover-focus);
+}
+/*main*/
+/*section*/
+.section {
+  background: var(--color-background);
+}
+.section-title {
+  /*font-family: 'Roboto';
+font-style: normal;*/
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.3636;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--color-section-title);
+}
+.section-btn {
+  background: var(--color-section-btn);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.section-btn:hover,
+.section-btn:focus {
+  background: var(--color-hover-focus);
+}
+/*section-features*/
+.features {
+}
+.features-list {list-style: none;
+}
+.features-item {
+  
+}
+.warning {
+
+font-weight: 700;
+font-size: 14px;
+line-height: 1.428;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+
+color:  var(--color-title);
+}
+.warning-text {font-weight: 400;
+font-size: 14px;
+line-height: 1.7142;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: var(--color-text);
+}
+.punctuaity {font-weight: 700;
+font-size: 14px;
+line-height: 1.428;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.punctuaity-text {font-weight: 400;
+font-size: 14px;
+line-height: 1.7142;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: var(--color-text);
+}
+.planning {font-weight: 700;
+font-size: 14px;
+line-height: 1.428;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.planning-text {font-weight: 400;
+font-size: 14px;
+line-height: 1.7142;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: var(--color-text);
+}
+.tehnologies {font-weight: 700;
+font-size: 14px;
+line-height: 1.428;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.tehnologies-text {font-weight: 400;
+font-size: 14px;
+line-height: 1.7142;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: var(--color-text);
+}
+/*section-do*/
+.do {
+}
+.do-title {font-weight: 700;
+font-size: 36px;
+line-height: 1.1666;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--color-title);
+}
+.items {list-style: none;
+}
+.do-title-items {
+}
+.box-one {background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
+mix-blend-mode: normal;
+}
+.box-two {background: url(web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg);
+}
+.box-thre {background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
 }
