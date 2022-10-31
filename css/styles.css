@@ -7,6 +7,9 @@
   --color-background: #2f303a;
   --color-section-title:#ffffff;
   --color-section-btn: #d9d9d9;
+  --team-background:#F5F4FA;
+  --color-footer-logo: #FFFFFF;
+  --color-footer-mail: rgba(255, 255, 255, 0.6);
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -242,3 +245,172 @@ mix-blend-mode: normal;
 }
 .box-thre {background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
 }
+/*section-team*/
+.team {background: var(--team-background);
+}
+.team-title {font-weight: 700;
+font-size: 36px;
+line-height: 1.1666;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--color-title);
+}
+.team-list {list-style: none;
+}
+.team-item {
+}
+.igor {background: url(4853.jpg);
+border-radius: 0px;
+}
+.igor-title {font-weight: 500;
+font-size: 16px;
+line-height: 1.1875;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--color-title);
+}
+.igor-text {font-weight: 400;
+font-size: 16px;
+line-height: 1.1875;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--color-text);
+}
+.olga {background: url(5844.jpg);
+border-radius: 0px;
+}
+.olga-title {font-weight: 500;
+font-size: 16px;
+line-height: 1.1875;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--color-title);
+}
+.olga-text {font-weight: 400;
+font-size: 16px;
+line-height: 1.1875;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--color-text);
+}
+.mukola {background: url(16166.jpg);
+border-radius: 0px;
+}
+.mukola-title {font-weight: 500;
+font-size: 16px;
+line-height: 1.1875;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--color-title);
+}
+.mukola-text {font-weight: 400;
+font-size: 16px;
+line-height: 1.1875;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--color-text);
+}
+.muhailo {background: url(2968.jpg);
+border-radius: 0px;
+}
+.muhailo-title {font-weight: 500;
+font-size: 16px;
+line-height: 1.1875;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--color-title);
+}
+.muhailo-text {font-weight: 400;
+font-size: 16px;
+line-height: 1.1875;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--color-text);
+}
+/*footer*/
+.footer {background: var(--color-background);
+}
+.footer-logo {  font-family: var(--font-ral);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1923;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: var(--color-footer-logo);
+
+ 
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer-logo-web {color: var(--color-hover-focus);
+}
+.address {
+}
+.address-list {list-style: none; 
+}
+.address-list-item {
+}
+.address-address {font-weight: 400;
+font-size: 14px;
+line-height: 1.7142;
+/* or 171% */
+
+letter-spacing: 0.03em;
+color: var(--color-section-title);
+  text-decoration: none; 
+  cursor: pointer;
+}
+.address-mail {font-weight: 400;
+font-size: 14px;
+line-height: 1.7142;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: var(--color-footer-mail);
+  text-decoration: none;
+   cursor: pointer;
+}
+.address-tel {font-weight: 400;
+  font-size: 14px;
+line-height: 1.7142;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: var(--color-footer-mail);
+  text-decoration: none;
+   cursor: pointer;
+}
+.address-address:hover, .address-address:focus,
+.address-mail:hover, .address-mail:focus,
+.address-tel:hover, .address-tel:focus
+{color: var(--color-hover-focus);}
