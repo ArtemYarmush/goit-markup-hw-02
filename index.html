@@ -14,23 +14,25 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header">
+    <header>
       <a class="logo" lang="en" href="./index.html"
         ><span class="logo-web">Web</span>Studio</a
       >
-      <nav class="nav">
-        <ul class="nav-list">
-          <li>
-            <a class="nav-list-studio current" href="#">Студія</a>
+      <nav>
+        <ul class="nav">
+          <li class="nav-list">
+            <a class="nav-studio current" href="#">Студія</a>
           </li>
-          <li>
-            <a class="nav-list-portfolio" href="./portfolio.html">Портфоліо</a>
+          <li class="nav-list">
+            <a class="nav-portfolio" href="./portfolio.html">Портфоліо</a>
           </li>
-          <li><a class="nav-list-contacts" href="#">Контакти</a></li>
+          <li class="nav-list">
+            <a class="nav-contacts" href="#">Контакти</a>
+          </li>
         </ul>
       </nav>
       <ul class="list">
-        <li>
+        <li class="list-item">
           <a class="list-mail" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
@@ -48,28 +50,28 @@
       <section class="features">
         <ul class="features-list">
           <li class="features-item">
-            <h3 class="warning">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p class="warning-text">
+            <h3 class="features-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="features-text">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
           <li class="features-item">
-            <h3 class="punctuaity">ПУНКТУАЛЬНІСТЬ</h3>
-            <p class="punctuaity-text">
+            <h3 class="features-title">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="features-text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
           <li class="features-item">
-            <h3 class="planning">ПЛАНУВАННЯ</h3>
-            <p class="planning-text">
+            <h3 class="features-title">ПЛАНУВАННЯ</h3>
+            <p class="features-text">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li class="features-item">
-            <h3 class="tehnologies">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p class="tehnologies-text">
+            <h3 class="features-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="features-text">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
@@ -77,10 +79,10 @@
         </ul>
       </section>
 
-      <section class="do">
+      <section>
         <h2 class="do-title">Чим ми займаємося</h2>
         <ul class="items">
-          <li class="do-title-items">
+          <li>
             <img
               class="box-one"
               src="./images/box1.jpg"
@@ -89,7 +91,7 @@
               alt="пишемо код"
             />
           </li>
-          <li class="do-title-items">
+          <li>
             <img
               class="box-two"
               src="./images/box2.jpg"
@@ -98,7 +100,7 @@
               alt="оптимізуємо вивід зображення"
             />
           </li>
-          <li class="do-title-items">
+          <li>
             <img
               class="box-thre"
               src="./images/box3.jpg"
@@ -113,7 +115,7 @@
       <section class="team">
         <h2 class="team-title">Наша команда</h2>
         <ul class="team-list">
-          <li class="team-item">
+          <li>
             <img
               class="igor"
               src="./images/igor.jpg"
@@ -121,10 +123,10 @@
               height="260"
               alt="Ігор Дем'яненко"
             />
-            <h3 class="igor-title">Ігор Дем'яненко</h3>
-            <p class="igor-text" lang="en">Product Designer</p>
+            <h3 class="worcker-title">Ігор Дем'яненко</h3>
+            <p class="worcker-text" lang="en">Product Designer</p>
           </li>
-          <li class="team-item">
+          <li>
             <img
               class="olga"
               src="./images/olga.jpg"
@@ -132,10 +134,10 @@
               height="260"
               alt="Ольга Рєпіна"
             />
-            <h3 class="olga-title">Ольга Рєпіна</h3>
-            <p class="olga-text" lang="en">Frontend Developer</p>
+            <h3 class="worcker-title">Ольга Рєпіна</h3>
+            <p class="worcker-text" lang="en">Frontend Developer</p>
           </li>
-          <li class="team-item">
+          <li>
             <img
               class="mukola"
               src="./images/mukola.jpg"
@@ -143,10 +145,10 @@
               height="260"
               alt="Микола Тарасов"
             />
-            <h3 class="mukola-title">Микола Тарасов</h3>
-            <p class="mukola-text" lang="en">Marketing</p>
+            <h3 class="worcker-title">Микола Тарасов</h3>
+            <p class="worcker-text" lang="en">Marketing</p>
           </li>
-          <li class="team-item">
+          <li>
             <img
               class="muhailo"
               src="./images/muhailo.jpg"
@@ -154,8 +156,8 @@
               height="260"
               alt="Михайло Єрмаков"
             />
-            <h3 class="muhailo-title">Михайло Єрмаков</h3>
-            <p class="muhailo-text" lang="en">UI Designer</p>
+            <h3 class="worcker-title">Михайло Єрмаков</h3>
+            <p class="worcker-text" lang="en">UI Designer</p>
           </li>
         </ul>
       </section>
@@ -164,7 +166,7 @@
       <a class="footer-logo" lang="en" href="./index.html"
         ><span class="footer-logo-web">Web</span>Studio</a
       >
-      <address class="address">
+      <address>
         <ul class="address-list">
           <li class="address-list-item">
             <a
