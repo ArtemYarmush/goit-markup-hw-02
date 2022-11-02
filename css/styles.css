@@ -40,6 +40,7 @@ body {
 }
 .nav-list {
   font-size: 14px;
+  font-weight: 500;
   line-height: 1.1428;
   letter-spacing: 0.02em;
 }
@@ -71,6 +72,7 @@ body {
 }
 .list-item {
   font-size: 14px;
+  font-weight: 500;
   line-height: 1.1428;
   letter-spacing: 0.02em;
 }
@@ -95,6 +97,7 @@ body {
 }
 .section-title {
   font-size: 44px;
+  font-weight: 900;
   line-height: 1.3636;
   /* or 136% */
   text-align: center;
@@ -104,6 +107,7 @@ body {
 }
 .section-btn {
   font-size: 16px;
+  font-weight: 700;
   line-height: 1.875;
   /* identical to box height, or 188% */
   display: flex;
@@ -112,7 +116,6 @@ body {
   letter-spacing: 0.06em;
 
   color: var(--color-section-title);
-  text-transform: uppercase;
   cursor: pointer;
   border: none;
 }
@@ -125,7 +128,7 @@ body {
   list-style: none;
 }
 .features-item {
-  font-size: 14px;
+  font-size: 36px;
   letter-spacing: 0.03em;
 }
 .features-title {
@@ -178,6 +181,7 @@ body {
 }
 .worcker-title {
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.1875;
   /* identical to box height */
   letter-spacing: 0.03em;
@@ -225,6 +229,7 @@ body {
 }
 .address-list-item {
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.7142;
   /* or 171% */
   letter-spacing: 0.03em;
@@ -260,54 +265,47 @@ body {
 .portfolio-list {
   list-style: none;
 }
-.portfolio-list-item {
+/* .portfolio-list-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+} */
+/*buttons*/
+/*.oll {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.625;
+  
+  letter-spacing: 0.03em;
+  border: none;
+  color: var(--color-title);
+}*/
+.btn-filters {
   font-family: "Roboto";
   font-style: normal;
   font-size: 16px;
   line-height: 1.625;
   /* identical to box height, or 162% */
   letter-spacing: 0.03em;
-}
-/*buttons*/
-.oll {
   border: none;
   color: var(--color-title);
 }
-.web-site {
-  border: none;
-  color: var(--color-title);
-}
-.appendices {
-  border: none;
-  color: var(--color-title);
-}
-.design {
-  border: none;
-  color: var(--color-title);
-}
-.marketing {
-  border: none;
-  color: var(--color-title);
-}
-.oll:hover,
-.oll:focus,
-.web-site:hover,
-.web-site:focus,
-.appendices:hover,
-.appendices:focus,
-.design:hover,
-.design:focus,
-.marketing:hover,
-.marketing:focus {
+.btn-filters:hover,
+.btn-filters:focus {
   background: var(--color-hover-focus);
   color: var(--portfolio-background);
 }
+/*.portfolio-list-item:hover,
+.portfolio-list-item:focus {
+  background: var(--color-hover-focus);
+  color: var(--portfolio-background);
+}*/
 /*project-list  */
 .project {
   list-style: none;
-}
-.technocrack {
-  background: url(portfolio1.jpg);
 }
 .project-title {
   font-size: 18px;
@@ -323,28 +321,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--color-text);
 }
-.poster {
-  background: url(portfolio2.jpg);
-}
-.seafood {
-  background: url(portfolio-1.jpg);
-}
-.prime {
-  background: url(portfolio-2.jpg);
-}
-.boxes {
-  background: url(portfolio5.jpg);
-}
-.Inspiration {
-  background: url(111.jpg);
-}
-.edition {
-  background: url(portfolio7.jpg);
-}
-.lab {
-  background: url(portfolio8.jpg);
-}
-.business {
-  background: url(2910404.jpg);
-}
+/* .project-item { 
+}*/
 /*footer copy from index.html*/
