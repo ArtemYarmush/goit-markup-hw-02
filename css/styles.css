@@ -129,18 +129,20 @@ body {
   list-style: none;
 }
 .features-item {
-  font-size: 14px;
-  letter-spacing: 0.03em;
 }
 .features-title {
+  font-size: 14px;
   line-height: 1.428;
   text-transform: uppercase;
   color: var(--color-title);
+  letter-spacing: 0.03em;
 }
 .features-text {
+  font-size: 14px;
   line-height: 1.7142;
   /* or 171% */
   color: var(--color-text);
+  letter-spacing: 0.03em;
 }
 /*section-do*/
 .do-title {
@@ -285,6 +287,7 @@ body {
 }*/
 .btn-filters {
   font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-style: normal;
   font-size: 16px;
   line-height: 1.625;
